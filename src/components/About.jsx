@@ -10,11 +10,7 @@ const About = () => {
                         <div className="relative">
                             <div className="absolute -inset-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur-lg opacity-30"></div>
                             <div className="relative aspect-square overflow-hidden rounded-xl border-2 border-purple-500/30">
-                                <img
-                                    src="/api/placeholder/600/600"
-                                    alt="Profile"
-                                    className="w-full h-full object-cover"
-                                />
+                                <h1>IMG</h1>
                             </div>
                         </div>
                     </div>

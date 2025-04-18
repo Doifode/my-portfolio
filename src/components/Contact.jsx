@@ -9,14 +9,14 @@ const Contact = () => {
         message: ''
     });
 
-    const handleChange = (e: any) => {
+    const handleChange = (e) => {
         setFormData({
             ...formData,
             [e.target.name]: e.target.value
         });
     };
 
-    const handleSubmit = (e: any) => {
+    const handleSubmit = (e) => {
         e.preventDefault();
         // Handle form submission logic here
         console.log(formData);

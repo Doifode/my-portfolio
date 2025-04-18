@@ -60,7 +60,7 @@ const Projects = () => {
 
                     {/* Projects */}
                     <div className="space-y-16">
-                        {projects.map((project: any, index) => (
+                        {projects.map((project, index) => (
                             <div
                                 key={project.id}
                                 className={`relative flex flex-col md:flex-row ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
@@ -87,7 +87,7 @@ const Projects = () => {
 
                                         <div className="mb-4">
                                             <div className="flex flex-wrap gap-2 mb-4">
-                                                {project.technologies.map((tech: any, i: number) => (
+                                                {project.technologies.map((tech, i) => (
                                                     <span
                                                         key={i}
                                                         className="px-3 py-1 bg-indigo-800/70 text-indigo-200 rounded-full text-xs"
